@@ -51,7 +51,9 @@ handle_option(char *arg)
     bpType = CUSTOM;
   } else if (!strcmp(arg,"--verbose")) {
     verbose = 1;
-  } else {
+  } else if (!strcmp(arg,"--perceptron")) {
+    bpType = PERCEPTRON;
+    }else {
     return 0;
   }
 
