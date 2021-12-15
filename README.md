@@ -118,6 +118,7 @@ being run are as follows:
         gshare:<# ghistory>
         tournament:<# ghistory>:<# lhistory>:<# index>
         custom
+        perceptron
 ```
 An example of running a gshare predictor with 10 bits of history would be:   
 
